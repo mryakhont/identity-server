@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{D17CEA29-1330-480C-8A54-63F801E69D77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{40957130-AA77-41F5-A418-DF7C0224C1D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{40957130-AA77-41F5-A418-DF7C0224C1D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConsole", "ClientConsole\ClientConsole.csproj", "{41E870F7-0187-455A-BA02-D8FEF39A368E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientConsole", "ClientConsole\ClientConsole.csproj", "{41E870F7-0187-455A-BA02-D8FEF39A368E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServerAspNetIdentity", "IdentityServerAspNetIdentity\IdentityServerAspNetIdentity.csproj", "{4FC6D85A-7E2C-4F2B-9C48-21EF0BEE85DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{41E870F7-0187-455A-BA02-D8FEF39A368E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41E870F7-0187-455A-BA02-D8FEF39A368E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41E870F7-0187-455A-BA02-D8FEF39A368E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC6D85A-7E2C-4F2B-9C48-21EF0BEE85DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC6D85A-7E2C-4F2B-9C48-21EF0BEE85DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC6D85A-7E2C-4F2B-9C48-21EF0BEE85DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC6D85A-7E2C-4F2B-9C48-21EF0BEE85DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
